@@ -1,0 +1,14 @@
+Docker_demo_project_QA_Krina
+
+Steps to run using Docker
+
+1) Install docker client on you Mac
+2) run the docker compose file in detached mode using "docker-compose -f /path to dcoker file/docker-compose.yml up -d
+3) check the containers using docker ps
+4) Below containers should be up and running
+   selenium/node-opera-debug:latest
+   selenium/node-chrome-debug:latest
+   selenium/node-firefox-debug:latest
+   selenium/node-edge:91.0
+   selenium/hub
+5) Install VNC client and connect it to any web browser port which you want to connect.
